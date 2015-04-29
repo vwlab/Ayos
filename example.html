@@ -1,0 +1,15 @@
+{variable_string}<br/>
+
+<if var="{variable_boolean}" is="true">
+    Hello World<br />
+</if>
+
+<include file="example2.html"></include>
+
+<foreach var="array">
+    {_key} = {_value}<br/>
+</foreach>
+
+<loop count="10">
+    {_i}<br />
+</loop>
